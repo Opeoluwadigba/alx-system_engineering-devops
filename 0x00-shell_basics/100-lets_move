@@ -1,2 +1,4 @@
 #!/bin/bash
-mv src/*[A-Z]* target/
+mv [[:upper:]]* /tmp/u
+
+

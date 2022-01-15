@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Print 'To infinity and beyond' forever.#
-while:
-print
+while true
+do
 	echo "To infinity and beyond"
 	sleep 2
-return 0
+done

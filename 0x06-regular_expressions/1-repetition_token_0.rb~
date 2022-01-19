@@ -1,0 +1,8 @@
+#!/usr/bin/env Ruby
+puts ARGV[0].scan(/microsoft[a-z] , [A-Z] /).join
+root@e4eefdd5f09d$
+root@e4eefdd5fo9d$ ./1-repetition_token_0.rb microsoft | cat -e 
+microsoft$
+root@e4$ ./example.rb 127.0.0.1
+127.0.0.1
+sylvain@ubuntu$ ./example.rb 127.0.0.a

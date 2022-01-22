@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Display all attached IPv4 addresses
+ifconfig
+arp -a

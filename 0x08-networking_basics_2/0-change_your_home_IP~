@@ -1,0 +1,5 @@
+#!usr/bin/env bash
+#Resolve localhost to 127.0.0.2 and resolve facebook.com to 8.8.8.8
+cp /etc/hosts ~/hosts.new
+sed -i s/"^172.*$2 ~"/host.new
+cp -f ~/hosts.new /etc/hosts
